@@ -1,0 +1,87 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "acronym central",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "DefinitionIntent",
+          "slots": [
+            {
+              "name": "acronym",
+              "type": "acronym"
+            }
+          ],
+          "samples": [
+            "what does {acronym}  mean",
+            "what does {acronym}  stand for",
+            "what {acronym} means",
+            "what is the definition of {acronym}",
+            "what\u0027s the meaning of {acronym}",
+            "what is the meaning of {acronym}",
+            "what does {acronym} mean",
+            "what does {acronym} stand for",
+            "what is {acronym} "
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "WordOfTheDayIntent",
+          "slots": [],
+          "samples": [
+            "word of the day",
+            "Give me the word of the day",
+            "What is the word of the day"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "ORR"
+              }
+            },
+            {
+              "name": {
+                "value": "ASG"
+              }
+            },
+            {
+              "name": {
+                "value": "1D"
+              }
+            },
+            {
+              "name": {
+                "value": "1DD"
+              }
+            },
+            {
+              "name": {
+                "value": "AAA"
+              }
+            }
+          ],
+          "name": "acronym"
+        }
+      ]
+    }
+  },
+  "version": "14"
+}
