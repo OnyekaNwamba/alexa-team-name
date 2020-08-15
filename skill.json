@@ -1,0 +1,63 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-GB": {
+          "summary": "Ask for any acronym from the Amazon Wiki",
+          "examplePhrases": [
+            "Alexa, ask acronym central for word of the day",
+            "Alexa, tell acronym central what does 1DD stand for"
+          ],
+          "keywords": [],
+          "name": "Acronym Central",
+          "description": "Our skill makes use of the amazon wiki to help you learn as many acronym as possible before your internship!",
+          "smallIconUri": "file://assets/images/en-GB_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-GB_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Open the skill , wait for response and then request for acronym / word of the day.\nE.g. \"Open Acronym Central\"  wait for response \" What does {acronym} stand for?\"",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:422795275165:function:c7c96a76-ec52-4118-b690-8ea9553bd209:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:422795275165:function:c7c96a76-ec52-4118-b690-8ea9553bd209:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:422795275165:function:c7c96a76-ec52-4118-b690-8ea9553bd209:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:422795275165:function:c7c96a76-ec52-4118-b690-8ea9553bd209:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-GB": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
